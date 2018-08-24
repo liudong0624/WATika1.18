@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="tika-core-1.18.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="org.apache.tika.config.TikaActivator" bundleSymbolicName="org.apache.tika.core" bundleVersion="1.18.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="This is the core Apache Tika™ toolkit library from which all other modules inherit functionality. It alsoincludes the core facades for the Tika API." />
+          <property key="Bundle-Vendor" value="The Apache Software Foundation" />
+          <property key="Bundle-DocURL" value="http://tika.apache.org/" />
+          <property key="Bundle-ActivationPolicy" value="lazy" />
+          <property key="Bundle-Name" value="Apache Tika core" />
+          <property key="Include-Resource" value="org/apache/tika/detect/tika-example.nnmodel=$MODULE_DIR$/src/main/resources/org/apache/tika/detect/tika-example.nnmodel,org/apache/tika/language/be.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/be.ngp,org/apache/tika/language/ca.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/ca.ngp,org/apache/tika/language/da.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/da.ngp,org/apache/tika/language/de.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/de.ngp,org/apache/tika/language/el.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/el.ngp,org/apache/tika/language/en.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/en.ngp,org/apache/tika/language/eo.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/eo.ngp,org/apache/tika/language/es.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/es.ngp,org/apache/tika/language/et.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/et.ngp,org/apache/tika/language/fa.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/fa.ngp,org/apache/tika/language/fi.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/fi.ngp,org/apache/tika/language/fr.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/fr.ngp,org/apache/tika/language/gl.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/gl.ngp,org/apache/tika/language/hu.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/hu.ngp,org/apache/tika/language/is.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/is.ngp,org/apache/tika/language/it.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/it.ngp,org/apache/tika/language/lt.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/lt.ngp,org/apache/tika/language/nl.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/nl.ngp,org/apache/tika/language/no.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/no.ngp,org/apache/tika/language/pl.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/pl.ngp,org/apache/tika/language/pt.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/pt.ngp,org/apache/tika/language/ro.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/ro.ngp,org/apache/tika/language/ru.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/ru.ngp,org/apache/tika/language/sk.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/sk.ngp,org/apache/tika/language/sl.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/sl.ngp,org/apache/tika/language/sv.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/sv.ngp,org/apache/tika/language/th.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/th.ngp,org/apache/tika/language/tika.language.properties=$MODULE_DIR$/src/main/resources/org/apache/tika/language/tika.language.properties,org/apache/tika/language/uk.ngp=$MODULE_DIR$/src/main/resources/org/apache/tika/language/uk.ngp,org/apache/tika/mime/tika-mimetypes.xml=$MODULE_DIR$/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml,org/apache/tika/parser/external/tika-external-parsers.xml=$MODULE_DIR$/src/main/resources/org/apache/tika/parser/external/tika-external-parsers.xml" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi:3.17-beta1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.osgi:org.osgi.core:4.0.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.osgi:org.osgi.compendium:4.0.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: biz.aQute:bndlib:1.43.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+  </component>
+</module>
